@@ -23,11 +23,27 @@ import { ref } from 'vue'
                     class="overflow-hidden bg-white shadow-sm sm:rounded-lg dark:bg-gray-800"
                 >
                     <div class="p-6 text-gray-900 dark:text-gray-100">
+                        <th>
                         <link >
                             <a :href="route('cliente.index')" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                Ir a clientes
+                                Ir a Clientes
                             </a>
                         </link>
+                        </th>
+                        <th>
+                        <link >
+                            <a :href="route('proyecto.index')" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                Ir a Proyectos
+                            </a>
+                        </link>
+                        </th>
+                        <th>
+                        <link >
+                            <a :href="route('producto.index')" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                Ir a Productos
+                            </a>
+                        </link>
+                        </th>
                     </div>
                 </div>
             </div>
